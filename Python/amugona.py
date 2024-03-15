@@ -724,4 +724,10 @@ else:
         elif n == 0 : # 3으로 나누어 떨어질 때
             print(p)
             break
-        
+
+# 1225   
+import sys
+a,b = map(list, sys.stdin.readline().split())  
+a = list(map(int,a))
+b = list(map(int,b))
+print(sum(a)*sum(b))
