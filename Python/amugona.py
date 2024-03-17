@@ -744,3 +744,28 @@ while True:
         print('right')
     else:
         print('wrong')
+        
+# 1920
+'''시간초과
+N = int(input())
+first_ls = list(map(int, input().split()))
+M = int(input())
+second_ls = list(map(int, input().split()))
+for i in range(M):
+    if second_ls[i] in first_ls:
+        print(1)
+    else:
+        print(0)
+'''
+
+N = int(input())
+first_ls = set(map(int, input().split())) # 탐색시간을 줄이기 위해 set으로 받음
+
+M = int(input())
+second_ls = list(map(int, input().split()))
+
+for i in range(M):
+    if second_ls[i] in first_ls:
+        print(1)
+    else:
+        print(0)
