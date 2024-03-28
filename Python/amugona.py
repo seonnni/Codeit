@@ -970,3 +970,8 @@ for _ in range(N):
         if len(dq) > 0:
             print(dq[len(dq)-1])    
         else: print(-1)
+        
+# 2163
+N, M = map(int, input().split())
+result = (N*M)-1
+print(result)
