@@ -975,3 +975,18 @@ for _ in range(N):
 N, M = map(int, input().split())
 result = (N*M)-1
 print(result)
+
+# 11536
+n = int(input())
+arr = []
+
+for _ in range(n):
+    name = input()
+    arr.append(name)
+    
+if sorted(arr) == arr:
+    print("INCREASING")
+elif sorted(arr, reverse=True) == arr:
+    print("DECREASING")
+else:
+    print("NEITHER")
