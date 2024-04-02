@@ -1040,5 +1040,7 @@ else :
         time += 1
         
     print(time)
-            
-    
+
+# 2752
+num = list(map(int, input().split()))
+print(*sorted(num))
