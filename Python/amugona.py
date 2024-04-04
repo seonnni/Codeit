@@ -1058,3 +1058,8 @@ for i in range(N):
                 result = max(result, ls[i] + ls[j] + ls[k])
 
 print(result)
+
+# 3046
+R1, S = map(int, input().split())
+R2 = 2*S - R1
+print(R2)
