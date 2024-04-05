@@ -1063,3 +1063,10 @@ print(result)
 R1, S = map(int, input().split())
 R2 = 2*S - R1
 print(R2)
+
+# 1297
+D, H, W = map(int, input().split())
+r = D/(H**2 + W**2)**0.5
+a = H*r
+b = W*r
+print(int(a),int(b))
