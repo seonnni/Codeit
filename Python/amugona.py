@@ -1280,3 +1280,10 @@ while True:
     if button:
         print(n)
         break
+    
+# 1834
+sum = 0
+N = int(input())
+for i in range(1,N):
+    sum += (N*i+i)
+print(sum)
